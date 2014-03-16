@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.6.0_26-b03-384-10M3425 (Apple Inc.)
+Bundle-ManifestVersion: 2
+Bundle-Name: Protege OBO plugin
+Bundle-SymbolicName: org.protege.oboeditor;singleton:=true
+Bundle-Category: protege
+Bundle-Description: Plugin for viewing OBO ontologies in Protege
+Bundle-Vendor: European Bioifnromatics Institute
+Bundle-DocURL: http://ebi.ac.uk/~jupp
+Bundle-ClassPath: .,   resources/
+Update-Url: http://skoseditor.googlecode.com/svn/trunk/org.sealife.sko
+ s/skos-update.properties    
+Import-Package: org.osgi.framework,org.apache.log4j,javax.swing,javax.
+ swing.event,javax.swing.tree,javax.swing.border,javax.swing.table,javax.swing.plaf,javax.swing.plaf.basic
+Bundle-Version: 0.1
+Bundle-Activator: org.protege.editor.core.plugin.DefaultPluginActivator
+Require-Bundle: org.eclipse.equinox.registry,org.eclipse.equinox.common,org.protege.editor.core.application;bundle-version="4.1",org.protege.editor.owl;bundle-version="4.1",org.semanticweb.owl.owlapi;bundle-version="3.1"
